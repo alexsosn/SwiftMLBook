@@ -18,6 +18,9 @@
 
 - Section IV: ML in Production
 	- [Chapter 11.](11_libs/) Machine Learning Libraries
-	- [Bonus chapter 3.](12_hardware/) Hardware Accelerartion
-	- [Chapter 12.](13_compression/) Optimizing Neural Networks for Mobile Devices
-	- [Chapter 13.](14_best_practices/) Best Practices
+	- [Chapter 12.](12_hardware/) Hardware Accelerartion
+	- [Chapter 13.](13_compression/) Optimizing Neural Networks for Mobile Devices
+	- [Chapter 14.](14_best_practices/) Best Practices
+
+- Supplementary Materials:
+	- [Mathematical Notation Cheatsheet](pages/math_cheatsheet.md)
