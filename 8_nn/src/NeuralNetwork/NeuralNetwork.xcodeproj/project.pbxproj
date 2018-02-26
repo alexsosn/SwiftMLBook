@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11094EE81FC05FE8005F3EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094EE71FC05FE8005F3EAE /* AppDelegate.swift */; };
+		11094EEA1FC05FE8005F3EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094EE91FC05FE8005F3EAE /* ViewController.swift */; };
+		11094EED1FC05FE8005F3EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11094EEB1FC05FE8005F3EAE /* Main.storyboard */; };
+		11094EEF1FC05FE8005F3EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11094EEE1FC05FE8005F3EAE /* Assets.xcassets */; };
+		11094EF21FC05FE8005F3EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11094EF01FC05FE8005F3EAE /* LaunchScreen.storyboard */; };
+		11094EFD1FC05FE8005F3EAE /* NeuralNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094EFC1FC05FE8005F3EAE /* NeuralNetworkTests.swift */; };
+		11094F2A1FC0601A005F3EAE /* InputLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F0B1FC0601A005F3EAE /* InputLayer.swift */; };
+		11094F2B1FC0601A005F3EAE /* DropoutLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F0D1FC0601A005F3EAE /* DropoutLayer.swift */; };
+		11094F2C1FC0601A005F3EAE /* LocalResponseNormalizationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F0E1FC0601A005F3EAE /* LocalResponseNormalizationLayer.swift */; };
+		11094F2D1FC0601A005F3EAE /* SVMLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F101FC0601A005F3EAE /* SVMLayer.swift */; };
+		11094F2E1FC0601A005F3EAE /* SoftmaxLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F111FC0601A005F3EAE /* SoftmaxLayer.swift */; };
+		11094F2F1FC0601A005F3EAE /* RegressionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F121FC0601A005F3EAE /* RegressionLayer.swift */; };
+		11094F301FC0601A005F3EAE /* ConvolutionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F141FC0601A005F3EAE /* ConvolutionLayer.swift */; };
+		11094F311FC0601A005F3EAE /* FullyConnectedLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F151FC0601A005F3EAE /* FullyConnectedLayer.swift */; };
+		11094F321FC0601A005F3EAE /* PoolingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F171FC0601A005F3EAE /* PoolingLayer.swift */; };
+		11094F331FC0601A005F3EAE /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F181FC0601A005F3EAE /* Layer.swift */; };
+		11094F341FC0601A005F3EAE /* MaxoutLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F1A1FC0601A005F3EAE /* MaxoutLayer.swift */; };
+		11094F351FC0601A005F3EAE /* TanhLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F1B1FC0601A005F3EAE /* TanhLayer.swift */; };
+		11094F361FC0601A005F3EAE /* ReLULayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F1C1FC0601A005F3EAE /* ReLULayer.swift */; };
+		11094F371FC0601A005F3EAE /* SigmoidLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F1D1FC0601A005F3EAE /* SigmoidLayer.swift */; };
+		11094F381FC0601A005F3EAE /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F1E1FC0601A005F3EAE /* Solver.swift */; };
+		11094F391FC0601A005F3EAE /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F1F1FC0601A005F3EAE /* Protocols.swift */; };
+		11094F3B1FC0601A005F3EAE /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F211FC0601A005F3EAE /* Net.swift */; };
+		11094F3E1FC0601A005F3EAE /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F251FC0601A005F3EAE /* Random.swift */; };
+		11094F3F1FC0601A005F3EAE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F261FC0601A005F3EAE /* Utilities.swift */; };
+		11094F401FC0601A005F3EAE /* VolumeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F271FC0601A005F3EAE /* VolumeUtilities.swift */; };
+		11094F411FC0601A005F3EAE /* MNIST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F281FC0601A005F3EAE /* MNIST.swift */; };
+		11094F421FC0601A005F3EAE /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F291FC0601A005F3EAE /* Volume.swift */; };
+		11094F441FC06D46005F3EAE /* DotProductLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11094F431FC06D46005F3EAE /* DotProductLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11094EF91FC05FE8005F3EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11094EDC1FC05FE8005F3EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11094EE31FC05FE8005F3EAE;
+			remoteInfo = NeuralNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11094EE41FC05FE8005F3EAE /* NeuralNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuralNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11094EE71FC05FE8005F3EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11094EE91FC05FE8005F3EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11094EEC1FC05FE8005F3EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11094EEE1FC05FE8005F3EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11094EF11FC05FE8005F3EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11094EF31FC05FE8005F3EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11094EF81FC05FE8005F3EAE /* NeuralNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuralNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11094EFC1FC05FE8005F3EAE /* NeuralNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetworkTests.swift; sourceTree = "<group>"; };
+		11094EFE1FC05FE8005F3EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11094F0B1FC0601A005F3EAE /* InputLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputLayer.swift; sourceTree = "<group>"; };
+		11094F0D1FC0601A005F3EAE /* DropoutLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropoutLayer.swift; sourceTree = "<group>"; };
+		11094F0E1FC0601A005F3EAE /* LocalResponseNormalizationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalResponseNormalizationLayer.swift; sourceTree = "<group>"; };
+		11094F101FC0601A005F3EAE /* SVMLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVMLayer.swift; sourceTree = "<group>"; };
+		11094F111FC0601A005F3EAE /* SoftmaxLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftmaxLayer.swift; sourceTree = "<group>"; };
+		11094F121FC0601A005F3EAE /* RegressionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegressionLayer.swift; sourceTree = "<group>"; };
+		11094F141FC0601A005F3EAE /* ConvolutionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvolutionLayer.swift; sourceTree = "<group>"; };
+		11094F151FC0601A005F3EAE /* FullyConnectedLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullyConnectedLayer.swift; sourceTree = "<group>"; };
+		11094F171FC0601A005F3EAE /* PoolingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoolingLayer.swift; sourceTree = "<group>"; };
+		11094F181FC0601A005F3EAE /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		11094F1A1FC0601A005F3EAE /* MaxoutLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxoutLayer.swift; sourceTree = "<group>"; };
+		11094F1B1FC0601A005F3EAE /* TanhLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TanhLayer.swift; sourceTree = "<group>"; };
+		11094F1C1FC0601A005F3EAE /* ReLULayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReLULayer.swift; sourceTree = "<group>"; };
+		11094F1D1FC0601A005F3EAE /* SigmoidLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigmoidLayer.swift; sourceTree = "<group>"; };
+		11094F1E1FC0601A005F3EAE /* Solver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
+		11094F1F1FC0601A005F3EAE /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		11094F211FC0601A005F3EAE /* Net.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		11094F251FC0601A005F3EAE /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		11094F261FC0601A005F3EAE /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		11094F271FC0601A005F3EAE /* VolumeUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeUtilities.swift; sourceTree = "<group>"; };
+		11094F281FC0601A005F3EAE /* MNIST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNIST.swift; sourceTree = "<group>"; };
+		11094F291FC0601A005F3EAE /* Volume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		11094F431FC06D46005F3EAE /* DotProductLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotProductLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11094EE11FC05FE8005F3EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11094EF51FC05FE8005F3EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11094EDB1FC05FE8005F3EAE = {
+			isa = PBXGroup;
+			children = (
+				11094EE61FC05FE8005F3EAE /* NeuralNetwork */,
+				11094EFB1FC05FE8005F3EAE /* NeuralNetworkTests */,
+				11094EE51FC05FE8005F3EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11094EE51FC05FE8005F3EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11094EE41FC05FE8005F3EAE /* NeuralNetwork.app */,
+				11094EF81FC05FE8005F3EAE /* NeuralNetworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11094EE61FC05FE8005F3EAE /* NeuralNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				11094F071FC0601A005F3EAE /* src */,
+				11094EE71FC05FE8005F3EAE /* AppDelegate.swift */,
+				11094EE91FC05FE8005F3EAE /* ViewController.swift */,
+				11094EEB1FC05FE8005F3EAE /* Main.storyboard */,
+				11094EEE1FC05FE8005F3EAE /* Assets.xcassets */,
+				11094EF01FC05FE8005F3EAE /* LaunchScreen.storyboard */,
+				11094EF31FC05FE8005F3EAE /* Info.plist */,
+			);
+			path = NeuralNetwork;
+			sourceTree = "<group>";
+		};
+		11094EFB1FC05FE8005F3EAE /* NeuralNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				11094EFC1FC05FE8005F3EAE /* NeuralNetworkTests.swift */,
+				11094EFE1FC05FE8005F3EAE /* Info.plist */,
+			);
+			path = NeuralNetworkTests;
+			sourceTree = "<group>";
+		};
+		11094F071FC0601A005F3EAE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				11094F081FC0601A005F3EAE /* DeepLearning */,
+				11094F231FC0601A005F3EAE /* Utils */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		11094F081FC0601A005F3EAE /* DeepLearning */ = {
+			isa = PBXGroup;
+			children = (
+				11094F091FC0601A005F3EAE /* Layers */,
+				11094F1E1FC0601A005F3EAE /* Solver.swift */,
+				11094F1F1FC0601A005F3EAE /* Protocols.swift */,
+				11094F211FC0601A005F3EAE /* Net.swift */,
+			);
+			path = DeepLearning;
+			sourceTree = "<group>";
+		};
+		11094F091FC0601A005F3EAE /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				11094F0A1FC0601A005F3EAE /* LayersInput */,
+				11094F0C1FC0601A005F3EAE /* LayersNormalization */,
+				11094F0F1FC0601A005F3EAE /* LayersLoss */,
+				11094F131FC0601A005F3EAE /* LayersDotproducts */,
+				11094F161FC0601A005F3EAE /* LayersPool */,
+				11094F181FC0601A005F3EAE /* Layer.swift */,
+				11094F191FC0601A005F3EAE /* LayersNonlinearities */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		11094F0A1FC0601A005F3EAE /* LayersInput */ = {
+			isa = PBXGroup;
+			children = (
+				11094F0B1FC0601A005F3EAE /* InputLayer.swift */,
+			);
+			path = LayersInput;
+			sourceTree = "<group>";
+		};
+		11094F0C1FC0601A005F3EAE /* LayersNormalization */ = {
+			isa = PBXGroup;
+			children = (
+				11094F0D1FC0601A005F3EAE /* DropoutLayer.swift */,
+				11094F0E1FC0601A005F3EAE /* LocalResponseNormalizationLayer.swift */,
+			);
+			path = LayersNormalization;
+			sourceTree = "<group>";
+		};
+		11094F0F1FC0601A005F3EAE /* LayersLoss */ = {
+			isa = PBXGroup;
+			children = (
+				11094F101FC0601A005F3EAE /* SVMLayer.swift */,
+				11094F111FC0601A005F3EAE /* SoftmaxLayer.swift */,
+				11094F121FC0601A005F3EAE /* RegressionLayer.swift */,
+			);
+			path = LayersLoss;
+			sourceTree = "<group>";
+		};
+		11094F131FC0601A005F3EAE /* LayersDotproducts */ = {
+			isa = PBXGroup;
+			children = (
+				11094F141FC0601A005F3EAE /* ConvolutionLayer.swift */,
+				11094F151FC0601A005F3EAE /* FullyConnectedLayer.swift */,
+				11094F431FC06D46005F3EAE /* DotProductLayer.swift */,
+			);
+			path = LayersDotproducts;
+			sourceTree = "<group>";
+		};
+		11094F161FC0601A005F3EAE /* LayersPool */ = {
+			isa = PBXGroup;
+			children = (
+				11094F171FC0601A005F3EAE /* PoolingLayer.swift */,
+			);
+			path = LayersPool;
+			sourceTree = "<group>";
+		};
+		11094F191FC0601A005F3EAE /* LayersNonlinearities */ = {
+			isa = PBXGroup;
+			children = (
+				11094F1A1FC0601A005F3EAE /* MaxoutLayer.swift */,
+				11094F1B1FC0601A005F3EAE /* TanhLayer.swift */,
+				11094F1C1FC0601A005F3EAE /* ReLULayer.swift */,
+				11094F1D1FC0601A005F3EAE /* SigmoidLayer.swift */,
+			);
+			path = LayersNonlinearities;
+			sourceTree = "<group>";
+		};
+		11094F231FC0601A005F3EAE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				11094F251FC0601A005F3EAE /* Random.swift */,
+				11094F261FC0601A005F3EAE /* Utilities.swift */,
+				11094F271FC0601A005F3EAE /* VolumeUtilities.swift */,
+				11094F281FC0601A005F3EAE /* MNIST.swift */,
+				11094F291FC0601A005F3EAE /* Volume.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11094EE31FC05FE8005F3EAE /* NeuralNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11094F011FC05FE8005F3EAE /* Build configuration list for PBXNativeTarget "NeuralNetwork" */;
+			buildPhases = (
+				11094EE01FC05FE8005F3EAE /* Sources */,
+				11094EE11FC05FE8005F3EAE /* Frameworks */,
+				11094EE21FC05FE8005F3EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuralNetwork;
+			productName = NeuralNetwork;
+			productReference = 11094EE41FC05FE8005F3EAE /* NeuralNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11094EF71FC05FE8005F3EAE /* NeuralNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11094F041FC05FE8005F3EAE /* Build configuration list for PBXNativeTarget "NeuralNetworkTests" */;
+			buildPhases = (
+				11094EF41FC05FE8005F3EAE /* Sources */,
+				11094EF51FC05FE8005F3EAE /* Frameworks */,
+				11094EF61FC05FE8005F3EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11094EFA1FC05FE8005F3EAE /* PBXTargetDependency */,
+			);
+			name = NeuralNetworkTests;
+			productName = NeuralNetworkTests;
+			productReference = 11094EF81FC05FE8005F3EAE /* NeuralNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11094EDC1FC05FE8005F3EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = OWL;
+				TargetAttributes = {
+					11094EE31FC05FE8005F3EAE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					11094EF71FC05FE8005F3EAE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11094EE31FC05FE8005F3EAE;
+					};
+				};
+			};
+			buildConfigurationList = 11094EDF1FC05FE8005F3EAE /* Build configuration list for PBXProject "NeuralNetwork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11094EDB1FC05FE8005F3EAE;
+			productRefGroup = 11094EE51FC05FE8005F3EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11094EE31FC05FE8005F3EAE /* NeuralNetwork */,
+				11094EF71FC05FE8005F3EAE /* NeuralNetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11094EE21FC05FE8005F3EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11094EF21FC05FE8005F3EAE /* LaunchScreen.storyboard in Resources */,
+				11094EEF1FC05FE8005F3EAE /* Assets.xcassets in Resources */,
+				11094EED1FC05FE8005F3EAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11094EF61FC05FE8005F3EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11094EE01FC05FE8005F3EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11094F311FC0601A005F3EAE /* FullyConnectedLayer.swift in Sources */,
+				11094F441FC06D46005F3EAE /* DotProductLayer.swift in Sources */,
+				11094F2D1FC0601A005F3EAE /* SVMLayer.swift in Sources */,
+				11094F361FC0601A005F3EAE /* ReLULayer.swift in Sources */,
+				11094F421FC0601A005F3EAE /* Volume.swift in Sources */,
+				11094F391FC0601A005F3EAE /* Protocols.swift in Sources */,
+				11094EEA1FC05FE8005F3EAE /* ViewController.swift in Sources */,
+				11094F3F1FC0601A005F3EAE /* Utilities.swift in Sources */,
+				11094F411FC0601A005F3EAE /* MNIST.swift in Sources */,
+				11094F341FC0601A005F3EAE /* MaxoutLayer.swift in Sources */,
+				11094F331FC0601A005F3EAE /* Layer.swift in Sources */,
+				11094F371FC0601A005F3EAE /* SigmoidLayer.swift in Sources */,
+				11094F2A1FC0601A005F3EAE /* InputLayer.swift in Sources */,
+				11094F2C1FC0601A005F3EAE /* LocalResponseNormalizationLayer.swift in Sources */,
+				11094EE81FC05FE8005F3EAE /* AppDelegate.swift in Sources */,
+				11094F3B1FC0601A005F3EAE /* Net.swift in Sources */,
+				11094F301FC0601A005F3EAE /* ConvolutionLayer.swift in Sources */,
+				11094F2E1FC0601A005F3EAE /* SoftmaxLayer.swift in Sources */,
+				11094F401FC0601A005F3EAE /* VolumeUtilities.swift in Sources */,
+				11094F351FC0601A005F3EAE /* TanhLayer.swift in Sources */,
+				11094F2F1FC0601A005F3EAE /* RegressionLayer.swift in Sources */,
+				11094F321FC0601A005F3EAE /* PoolingLayer.swift in Sources */,
+				11094F381FC0601A005F3EAE /* Solver.swift in Sources */,
+				11094F3E1FC0601A005F3EAE /* Random.swift in Sources */,
+				11094F2B1FC0601A005F3EAE /* DropoutLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11094EF41FC05FE8005F3EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11094EFD1FC05FE8005F3EAE /* NeuralNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11094EFA1FC05FE8005F3EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11094EE31FC05FE8005F3EAE /* NeuralNetwork */;
+			targetProxy = 11094EF91FC05FE8005F3EAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11094EEB1FC05FE8005F3EAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11094EEC1FC05FE8005F3EAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11094EF01FC05FE8005F3EAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11094EF11FC05FE8005F3EAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11094EFF1FC05FE8005F3EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11094F001FC05FE8005F3EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11094F021FC05FE8005F3EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUMEW37ZKN;
+				INFOPLIST_FILE = NeuralNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owl.org.NeuralNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11094F031FC05FE8005F3EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUMEW37ZKN;
+				INFOPLIST_FILE = NeuralNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owl.org.NeuralNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11094F051FC05FE8005F3EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUMEW37ZKN;
+				INFOPLIST_FILE = NeuralNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owl.org.NeuralNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuralNetwork.app/NeuralNetwork";
+			};
+			name = Debug;
+		};
+		11094F061FC05FE8005F3EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUMEW37ZKN;
+				INFOPLIST_FILE = NeuralNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = owl.org.NeuralNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuralNetwork.app/NeuralNetwork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11094EDF1FC05FE8005F3EAE /* Build configuration list for PBXProject "NeuralNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11094EFF1FC05FE8005F3EAE /* Debug */,
+				11094F001FC05FE8005F3EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11094F011FC05FE8005F3EAE /* Build configuration list for PBXNativeTarget "NeuralNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11094F021FC05FE8005F3EAE /* Debug */,
+				11094F031FC05FE8005F3EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11094F041FC05FE8005F3EAE /* Build configuration list for PBXNativeTarget "NeuralNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11094F051FC05FE8005F3EAE /* Debug */,
+				11094F061FC05FE8005F3EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11094EDC1FC05FE8005F3EAE /* Project object */;
+}

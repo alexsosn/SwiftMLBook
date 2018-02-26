@@ -1,0 +1,140 @@
+CLUSTAL W 2.0 multiple sequence alignment
+
+gi|5835205:7902-8585_Felis_catus_mitoch      ATGGCGTACCCCTTTCAACTAGGTTTCCAA 30
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ATGGCACATGCAGCGCAAGTAGGTCTACAA 30
+gi|251831106:7586-8269_Homo_sapiens_mit      ATGGCACATGCAGCGCAAGTAGGTCTACAA 30
+gi|196123578:7581-8264_Homo_sapiens_nea      ATGGCACATGCAGCGCAAGTAGGTCTACAA 30
+                                             *****  *  *    *** ***** * ***
+
+gi|5835205:7902-8585_Felis_catus_mitoch      GATGCTACATCCCCCATTATAGAAGAACTC 60
+gi|5835149:7007-7690_Gorilla_gorilla_mi      GACGCTACTTCTCCTATCATAGAAGAACTA 60
+gi|251831106:7586-8269_Homo_sapiens_mit      GACGCTACTTCCCCTATCATAGAAGAGCTT 60
+gi|196123578:7581-8264_Homo_sapiens_nea      GACGCTACTTCCCCTATCATAGAAGAGCTT 60
+                                             ** ***** ** ** ** ******** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      CTACACTTTCACGACCACACACTAATAATT 90
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ATCATCTTTCATGATCATGCCCTCATAATC 90
+gi|251831106:7586-8269_Homo_sapiens_mit      ATCACCTTTCATGATCACGCCCTCATAATC 90
+gi|196123578:7581-8264_Homo_sapiens_nea      ATCATCTTTCATGATCACGCCCTCATAATC 90
+                                              *   ****** ** **  * ** ***** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      GTATTTTTAATCAGCTCTTTAGTTCTTTAT 120
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ATTTTTCTCATCTGCTTCTTAGTCCTGTAC 120
+gi|251831106:7586-8269_Homo_sapiens_mit      ATTTTCCTTATCTGCTTCCTAGTCCTGTAT 120
+gi|196123578:7581-8264_Homo_sapiens_nea      ATTTTCCTTATCTGCTTCCTAGTCCTGTAT 120
+                                              * **  * *** ***   **** ** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      ATTATCTCGTTGATGCTAACAACCAAGCTC 150
+gi|5835149:7007-7690_Gorilla_gorilla_mi      GCCCTTTTCCTAACACTCACAACAAAGCTA 150
+gi|251831106:7586-8269_Homo_sapiens_mit      GCCCTTTTCCTAACACTCACAACAAAACTA 150
+gi|196123578:7581-8264_Homo_sapiens_nea      GCCCTTTTCCTAACACTCACAACAAAACTA 150
+                                                 * *   * *  ** ***** ** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      ACGCACACGAGTACAATAGATGCTCAAGAA 180
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ACTAACAACAACATCTCAGACGCCCAAGAA 180
+gi|251831106:7586-8269_Homo_sapiens_mit      ACTAATACTAACATCTCAGACGCTCAGGAA 180
+gi|196123578:7581-8264_Homo_sapiens_nea      ACTAATACTAGCATCTCAGACGCTCAGGAA 180
+                                             **  * *  *  *    *** ** ** ***
+
+gi|5835205:7902-8585_Felis_catus_mitoch      GTAGAAACCATCTGAACCATCCTACCTGCT 210
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ATAGAGACCATCTGAACCATCCTGCCCGCT 210
+gi|251831106:7586-8269_Homo_sapiens_mit      ATAGAAACCGTCTGAACTATCCTGCCCGCC 210
+gi|196123578:7581-8264_Homo_sapiens_nea      ATAGAAACCGTCTGAACTATCCTGCCCGCC 210
+                                              **** *** ******* ***** ** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      ATTATCCTGATTCTTATCGCCCTACCCTCC 240
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ATTATCTTAGTCCTGATCGCCCTCCCATCT 240
+gi|251831106:7586-8269_Homo_sapiens_mit      ATCATCCTAGTCCTCATCGCCCTCCCATCC 240
+gi|196123578:7581-8264_Homo_sapiens_nea      ATCATCCTAGTCCTCATCGCCCTCCCATCC 240
+                                             ** *** *  * ** ******** ** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      TTACGAATTCTCTATATAATGGATGAAATC 270
+gi|5835149:7007-7690_Gorilla_gorilla_mi      CTACGAATCCTCTATATGACAGATGAAATC 270
+gi|251831106:7586-8269_Homo_sapiens_mit      CTACGCATCCTTTACATAACAGACGAGGTC 270
+gi|196123578:7581-8264_Homo_sapiens_nea      CTACGCATCCTTTACATAACAGACGAGGTC 270
+                                              **** ** ** ** ** *  ** **  **
+
+gi|5835205:7902-8585_Felis_catus_mitoch      AACAACCCCTCCCTCACAGTAAAAACCATA 300
+gi|5835149:7007-7690_Gorilla_gorilla_mi      AATGACCCCTCCTTCACTATCAAATCAATC 300
+gi|251831106:7586-8269_Homo_sapiens_mit      AACGATCCCTCCCTTACCATCAAATCAATT 300
+gi|196123578:7581-8264_Homo_sapiens_nea      AACGACCCCTCCTTTACCATCAAATCAATT 300
+                                             **  * ****** * **  * *** * ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      GGACATCAATGATATTGAAGTTATGAGTAC 330
+gi|5835149:7007-7690_Gorilla_gorilla_mi      GGTCACCAATGATACTGAACCTACGAATAC 330
+gi|251831106:7586-8269_Homo_sapiens_mit      GGCCACCAATGGTACTGAACCTACGAGTAC 330
+gi|196123578:7581-8264_Homo_sapiens_nea      GGCCATCAATGGTACTGAACCTACGAGTAC 330
+                                             ** ** ***** ** ****  ** ** ***
+
+gi|5835205:7902-8585_Felis_catus_mitoch      ACTGATTACGAAGACTTGAATTTTGACTCT 360
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ACCGACTATGGTGGATTGATCTTTAACTCC 360
+gi|251831106:7586-8269_Homo_sapiens_mit      ACCGACTACGGCGGACTAATCTTCAACTCC 360
+gi|196123578:7581-8264_Homo_sapiens_nea      ACCGACTACGGCGGACTAATCTTCAACTCC 360
+                                             ** ** ** *  *   * *  **  **** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      TACATAATTCCTACCCAAGAGCTAAAACCA 390
+gi|5835149:7007-7690_Gorilla_gorilla_mi      TATATACTCCCCCCATTATTCCTAGAACCA 390
+gi|251831106:7586-8269_Homo_sapiens_mit      TACATACTTCCCCCATTATTCCTAGAACCA 390
+gi|196123578:7581-8264_Homo_sapiens_nea      TACATACTTCCCCCATTATTCCTAGAACCA 390
+                                             ** *** * **  *   *   *** *****
+
+gi|5835205:7902-8585_Felis_catus_mitoch      GGAGAACTCCGGCTATTAGAAGTTGACAAC 420
+gi|5835149:7007-7690_Gorilla_gorilla_mi      GGTGACCTACGACTCCTTGACGTCGACAAC 420
+gi|251831106:7586-8269_Homo_sapiens_mit      GGCGACCTGCGACTCCTTGACGTTGACAAT 420
+gi|196123578:7581-8264_Homo_sapiens_nea      GGCGACCTGCGACTCCTTGACGTTGACAAT 420
+                                             ** ** ** ** **  * ** ** ***** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      CGAGTAGTTTTACCAATAGAAATGACCATT 450
+gi|5835149:7007-7690_Gorilla_gorilla_mi      CGAGTAGTCCTTCCAGTTGAAGCCCCCGTC 450
+gi|251831106:7586-8269_Homo_sapiens_mit      CGAGTAGTACTCCCGATTGAAGCCCCCATT 450
+gi|196123578:7581-8264_Homo_sapiens_nea      CGAGTAGTACTCCCGGTTGAAGCCCCCATT 450
+                                             ********  * **  * ***    ** * 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      CGCATGTTAATCTCATCAGAAGATGTGTTA 480
+gi|5835149:7007-7690_Gorilla_gorilla_mi      CGTATAATAATTACATCCCAAGATGTCTTA 480
+gi|251831106:7586-8269_Homo_sapiens_mit      CGTATAATAATTACATCACAAGACGTCTTG 480
+gi|196123578:7581-8264_Homo_sapiens_nea      CGTATAATAATTACATCACAAGACGTCTTA 480
+                                             ** **  ****  ****  **** ** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      CACTCATGAGCCGTCCCATCCCTAGGCCTA 510
+gi|5835149:7007-7690_Gorilla_gorilla_mi      CACTCATGAGCTGTTCCCACATTAGGCCTA 510
+gi|251831106:7586-8269_Homo_sapiens_mit      CACTCATGAGCTGTCCCCACATTAGGCTTA 510
+gi|196123578:7581-8264_Homo_sapiens_nea      CACTCATGAGCTGTCCCCACATTAGGCTTA 510
+                                             *********** ** **  *  ***** **
+
+gi|5835205:7902-8585_Felis_catus_mitoch      AAAACTGATGCTATCCCAGGCCGATTAAAT 540
+gi|5835149:7007-7690_Gorilla_gorilla_mi      AAAACAGACGCAATCCCCGGGCGCCTGAAC 540
+gi|251831106:7586-8269_Homo_sapiens_mit      AAAACAGATGCAATTCCCGGACGTCTAAAC 540
+gi|196123578:7581-8264_Homo_sapiens_nea      AAAACAGATGCAATTCCCGGACGTCTAAAC 540
+                                             ***** ** ** ** ** ** **  * ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      CAAACAACTCTAATAGCTACACGACCTGGT 570
+gi|5835149:7007-7690_Gorilla_gorilla_mi      CAAACCACATTCACCGCCACACGACCAGGA 570
+gi|251831106:7586-8269_Homo_sapiens_mit      CAAACCACTTTCACCGCTACACGACCGGGG 570
+gi|196123578:7581-8264_Homo_sapiens_nea      CAAACCACTTTCACCGCTACACGACCGGGG 570
+                                             ***** **  * *  ** ******** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      TTATATTATGGCCAATGCTCAGAAATCTGT 600
+gi|5835149:7007-7690_Gorilla_gorilla_mi      GTATACTACGGCCAGTGCTCAGAAATCTGT 600
+gi|251831106:7586-8269_Homo_sapiens_mit      GTATACTACGGTCAATGCTCTGAAATCTGT 600
+gi|196123578:7581-8264_Homo_sapiens_nea      GTATACTACGGTCAATGCTCTGAAATCTGT 600
+                                              **** ** ** ** ***** *********
+
+gi|5835205:7902-8585_Felis_catus_mitoch      GGCTCAAACCATAGCTTCATACCCATTGTT 630
+gi|5835149:7007-7690_Gorilla_gorilla_mi      GGAGCCAACCACAGTTTTATGCCCATTGTT 630
+gi|251831106:7586-8269_Homo_sapiens_mit      GGAGCAAACCACAGTTTCATGCCCATCGTC 630
+gi|196123578:7581-8264_Homo_sapiens_nea      GGAGCAAACCACAGTTTCATGCCCATCGTC 630
+                                             **  * ***** ** ** ** ***** ** 
+
+gi|5835205:7902-8585_Felis_catus_mitoch      CTTGAATTAGTCCCACTAACGTACTTTGAA 660
+gi|5835149:7007-7690_Gorilla_gorilla_mi      CTAGAGCTAATCCCCCTAAAAATCTTTGAA 660
+gi|251831106:7586-8269_Homo_sapiens_mit      CTAGAATTAATTCCCCTAAAAATCTTTGAA 660
+gi|196123578:7581-8264_Homo_sapiens_nea      CTAGAATTAATTCCCCTAAAAATCTTTGAA 660
+                                             ** **  ** * ** ****    *******
+
+gi|5835205:7902-8585_Felis_catus_mitoch      AAATGATCTGCATCTATACTGTAA 684
+gi|5835149:7007-7690_Gorilla_gorilla_mi      ATAGGACCCGTATTCGCCCTATAA 684
+gi|251831106:7586-8269_Homo_sapiens_mit      ATAGGGCCCGTATTTACCCTATAG 684
+gi|196123578:7581-8264_Homo_sapiens_nea      ATAGGGCCCGTATTTACCCTATAG 684
+                                             * * *  * * **     ** ** 
+

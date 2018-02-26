@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Association Metrics'/>
+        <page name='Combinations'/>
+        <page name='Apriori_toy_example'/>
+        <page name='Apriori_real_world'/>
+    </pages>
+</playground>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Rea-i9-bFp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--k-Means Image Segmentation-->
+        <scene sceneID="I2b-O7-Npi">
+            <objects>
+                <navigationController title="k-Means Image Segmentation" id="Rea-i9-bFp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iOF-OT-bFW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2Jg-AA-10p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mDh-0G-6n6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-660" y="124"/>
+        </scene>
+        <!--k-Means Image Segmentation-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="k-Means Image Segmentation" id="BYZ-38-t0r" customClass="ViewController" customModule="ImageSegmentation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d0B-kI-cU6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YRu-xE-rh7">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="[Choose]" id="p44-JG-fpZ">
+                                        <connections>
+                                            <action selector="chooseImage:" destination="BYZ-38-t0r" id="8bf-Gh-Qo8"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="[Photo]" id="2A5-44-64l">
+                                        <connections>
+                                            <action selector="takePhote:" destination="BYZ-38-t0r" id="j5T-eu-Uck"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="[Random]" id="NW0-Jx-bo3">
+                                        <connections>
+                                            <action selector="chooseRandomImage:" destination="BYZ-38-t0r" id="bCT-6G-Y7K"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="xbT-Js-Jyq"/>
+                                    <barButtonItem title="Set k" id="2JS-yw-1WX">
+                                        <connections>
+                                            <action selector="changeK:" destination="BYZ-38-t0r" id="Grm-df-Ty0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="aLg-kz-Shc"/>
+                                    <barButtonItem systemItem="save" id="9c5-PY-6mg">
+                                        <connections>
+                                            <action selector="save:" destination="BYZ-38-t0r" id="fwx-KK-Yq4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="7Fg-Zp-6z6">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Fg-Zp-6z6" firstAttribute="centerX" secondItem="d0B-kI-cU6" secondAttribute="centerX" id="60l-LS-fWM"/>
+                            <constraint firstItem="d0B-kI-cU6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DUd-WU-Dfd"/>
+                            <constraint firstItem="d0B-kI-cU6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I9c-KW-50e"/>
+                            <constraint firstItem="d0B-kI-cU6" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="YIh-2H-DET"/>
+                            <constraint firstItem="d0B-kI-cU6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="a3p-wS-YOY"/>
+                            <constraint firstItem="7Fg-Zp-6z6" firstAttribute="centerY" secondItem="d0B-kI-cU6" secondAttribute="centerY" id="irv-Jr-sfN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nHW-JG-4B6"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="7Fg-Zp-6z6" id="TBH-m6-xfn"/>
+                        <outlet property="imageView" destination="d0B-kI-cU6" id="V8D-7z-igj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

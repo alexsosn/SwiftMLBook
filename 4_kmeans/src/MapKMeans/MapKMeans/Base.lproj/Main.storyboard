@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Map" id="BYZ-38-t0r" customClass="ViewController" customModule="MapKMeans" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="hybrid" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cti-L0-fly" customClass="MapViewController" customModule="MapKMeans" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="579"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CzH-5U-YVC">
+                                <rect key="frame" x="0.0" y="579" width="375" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kMeans++" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8W-Op-7EK">
+                                        <rect key="frame" x="15" y="12" width="81" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fnz-y4-oZa">
+                                        <rect key="frame" x="104" y="6.5" width="51" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="49" id="Jat-fc-QKI"/>
+                                            <constraint firstAttribute="height" constant="31" id="NAE-Go-C8q"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="changeInitializationType:" destination="BYZ-38-t0r" eventType="valueChanged" id="hpR-kz-ljR"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="F8W-Op-7EK" firstAttribute="centerY" secondItem="CzH-5U-YVC" secondAttribute="centerY" id="2lg-Dd-bFU"/>
+                                    <constraint firstAttribute="height" constant="44" id="CfW-gG-eh3"/>
+                                    <constraint firstItem="fnz-y4-oZa" firstAttribute="centerY" secondItem="CzH-5U-YVC" secondAttribute="centerY" id="LkW-jj-jb3"/>
+                                    <constraint firstItem="F8W-Op-7EK" firstAttribute="leading" secondItem="CzH-5U-YVC" secondAttribute="leading" constant="15" id="bJl-tm-XZG"/>
+                                    <constraint firstItem="fnz-y4-oZa" firstAttribute="leading" secondItem="F8W-Op-7EK" secondAttribute="trailing" constant="8" id="jTd-Nl-NRw"/>
+                                </constraints>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRM-t0-Quz">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Change k" id="NVi-YN-Ktr">
+                                        <connections>
+                                            <action selector="openSettings:" destination="BYZ-38-t0r" id="nxK-XZ-jxK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="K1j-V9-k9D"/>
+                                    <barButtonItem systemItem="refresh" id="04e-OL-0Qa">
+                                        <connections>
+                                            <action selector="restart:" destination="BYZ-38-t0r" id="HLg-DI-fiS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="E5A-LW-Xpo"/>
+                                    <barButtonItem title="Info" id="vUp-Hy-YlZ">
+                                        <connections>
+                                            <action selector="showInfo:" destination="BYZ-38-t0r" id="u6U-QA-aOu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dRM-t0-Quz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3cd-td-94e"/>
+                            <constraint firstItem="dRM-t0-Quz" firstAttribute="top" secondItem="CzH-5U-YVC" secondAttribute="bottom" id="5zt-1S-Deh"/>
+                            <constraint firstItem="cti-L0-fly" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="CeX-5Z-P0e"/>
+                            <constraint firstItem="CzH-5U-YVC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Cu0-XY-f8E"/>
+                            <constraint firstItem="CzH-5U-YVC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NGh-6A-Z4N"/>
+                            <constraint firstItem="CzH-5U-YVC" firstAttribute="top" secondItem="cti-L0-fly" secondAttribute="bottom" id="bBT-tb-ofc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cti-L0-fly" secondAttribute="trailing" constant="-16" id="f2K-Ta-RFb"/>
+                            <constraint firstItem="dRM-t0-Quz" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="fei-tB-dzA"/>
+                            <constraint firstItem="cti-L0-fly" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="qjl-vh-Uk4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dRM-t0-Quz" secondAttribute="bottom" id="wit-gN-16t"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" id="hmb-Ld-69J">
+                            <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="noH-It-m8d">
+                                <rect key="frame" x="134.5" y="6.5" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="mapView" destination="cti-L0-fly" id="UDU-b7-OpO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-199.19999999999999" y="101.19940029985008"/>
+        </scene>
+    </scenes>
+</document>
